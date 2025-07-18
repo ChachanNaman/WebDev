@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MODEL</title>
+    <style>
+
+        .{
+            margin: 0;
+            padding: o;
+        }
+        .box{
+            background-color: aqua;
+        }
+
+        .box1{
+            color: red;
+            padding: 25px;
+            margin: 5px;
+            border: 5px solid black;
+            height: 200px;
+            box-sizing: border-box;
+        }
+        /*box-sizing:border-box means height = padding + border + normal height 
+        means height is not now 200 it will be sum of padidng border and rest left is content */
+        .box2{
+            color: purple;
+            padding: 25px;
+            margin: 5px;
+            border: 5px solid black;
+            height: 200px;
+            box-sizing: border-box;
+        }
+
+       /* Margin collapse -> whenever two box margin is same it will take intersection and 
+        have only one margin and if one of the margin is greater then it will consider that box margin*/
+
+    </style>
+</head>
+<body>
+    <div class="box box1">This is the BOX 1</div>
+    <div class="box box2">This is the BOX 2</div>
+    <!--box is class and box1 and box 2 are subclass , box is universal applied to both and box1 and box2 properties applied seperately-->
+</body>
+</html>

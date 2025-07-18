@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* class selector */
+        .red{
+            color: red;
+        }
+
+        /* id selector */
+        #green{
+            color: green;
+        }
+
+        /* child selector */
+        div > p {
+            color: blue;
+            background-color: yellow;
+        }
+
+        /* descendent selector */
+        span p {
+            color: pink;
+            background-color: grey;
+        }
+
+        /* universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a{
+            background-color: black;
+        }
+        /* pseudo selector */
+        /* change color to blue after visiting website */
+        a:visited{
+            color: yellow;
+        }
+
+        /* unvisited link color */
+        a:link{
+            color: purple;
+        }
+
+        /* while clicking link change color */
+        a:active{
+            background-color: blue;
+        }
+
+        /* while hovering change color */
+        a:hover{
+            background-color: grey;
+        }
+
+        /* where where p is first child of anything change color of that  */
+        p:first-child{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="red">
+        My name is naman chachan
+
+        <p>This is the para(p) inside div </p>
+    </div>
+
+    <div id="green">
+        <p>I am the first child</p>
+        His name is Naman 
+    </div>
+
+    <span>
+        <article>
+
+            <p>This is a DESCNEDENT CHILD span->artile->p</p>
+        </article>
+    </span>
+
+    <a href="https://www.google.com"> Go to Google</a>
+    <a href="https://www.facebook.com">Go to Facebook</a>
+</body>
+</html>
