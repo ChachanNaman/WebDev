@@ -1,0 +1,14 @@
+.red{
+    color: red;
+}
+
+/* color: red; used for text colour and background-color: yellow; for background*/
+#firstdiv{
+    background-color: yellow;
+}
+
+
+
+#seconddiv{
+    background-color: rgb(181, 181, 21);
+}
