@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            font-size: 12px;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 1450px; */
+            width: 100vw;
+            height: 10vh;
+            margin: auto;
+            background-color: aquamarine;
+        }
+        .loremm{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 1450px; */
+            width: 100vw;
+            height: 80vh;
+            font-size: 12px;
+            margin: 23px auto;
+            background-color: aquamarine;
+        }
+        .loremm p{
+            /* font-size:2em ; */
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Hello this is naman ! 
+    </div>
+    <div class="loremm">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto architecto doloremque facilis voluptatum ut dignissimos, sit facere sequi sed ad nisi quos rerum, quod consequatur eligendi iste, eveniet totam laboriosam. Ipsum consequuntur ab sequi esse ullam neque ea fugit possimus ducimus reiciendis, totam, commodi accusantium sed cupiditate optio dignissimos sunt! Vitae voluptatum itaque maxime iste veniam.</p>
+       
+</body>
+</html>
+
+<!-- 
+->width: 100vw; vw(viewport width) is set to 100 means will fit in the page 
+    if vw = 80 means some part left 
+    and if vw>100->need of scrolling
+->margin: auto; means adjust in bw nicely   
+    will work only on block level element not on inline elements(like span)
+->height: 80vh; vh(view height) will take 80% of the height of page automatically
+    height: 10vh; will take 10%
+font-size : 2em; means twice the font size to be inhertited from upper class
+font-size: 2rem; means twice the font size of root font size 
+-->
