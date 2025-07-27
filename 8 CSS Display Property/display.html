@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS DISPLAY PROP</title>
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .box {
+        border: 2px solid aqua;
+        /* display: inline; */
+        display: inline-block;
+        padding: 45px;
+        margin: 34px;
+        width: 444px;
+    }
+    .box1{
+        display: none; /*will remove space of the content written before*/
+        visibility: hidden;
+        /* will leave space of the content that is hidden */
+    }
+</style>
+
+<body>
+    <div class="box">
+        Hello Naman
+    </div>
+    <div class="box box1">
+        hello ketan
+    </div>
+    <span>
+        hello swapnil
+    </span>
+</body>
+
+</html>
+
+<!-- 
+I can change the inline or block into each other like
+like Div is a block level takes new line everytime i can set it to inline 
+
+
+
+-->
