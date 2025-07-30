@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid aqua;
+            box-shadow: 10px 8px 5px #70a711;
+        }
+        .text-element{
+            text-shadow:2px 2px 4px #ee6618;
+            outline: 2px solid rgb(0, 0, 0);
+            border: 7px;
+            outline-offset: 12px;
+            border-radius: 8px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        Hello ! Naman Here
+    </div>
+    <div class="text-element">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione dicta nesciunt quos, recusandae quidem facilis corporis tenetur doloremque magnam consequatur minima, cumque accusantium perferendis necessitatibus.
+    </div>
+</body>
+</html>
+
+<!-- 
+
+shadow format : 
+box-shadow: h-offset v-offset blur spread color inset;
+
+h-offset and v-offset: Determines the shadow's horizontal and vertical position.
+blur: The larger the value, the blurrier the shadow.
+spread: Expands or shrinks the shadow size.
+color: Defines the shadow color.
+inset: Makes the shadow inner.
+
+text format :
+text-shadow: h-offset v-offset blur color;
+
+Outline format :
+outline: width style color;
+Outline is same like border but i can increase outline size directly wothout padding and margin by outline-offset
+I can curve borders(by border-radius : 8px;)but not Outline
+-->

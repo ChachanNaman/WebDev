@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Overflow</title>
+    <style>
+        .box{
+            width: 20vw;
+            height: 4vw;
+            border: 2px solid black;
+            overflow: auto;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            overflow: hidden scroll;
+            overflow: scroll hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat laborum quos obcaecati odit excepturi dolorum unde ea? Alias tempora a laboriosam pariatur. Eius ipsum illo molestiae facere neque accusantium nesciunt sed velit modi aspernatur culpa optio dolores voluptates excepturi quos, praesentium voluptatem amet sit vel cumque sint mollitia deserunt! A non necessitatibus veniam animi error.
+    </div>
+</body>
+</html>
+
+<!-- 
+overflow: scroll; : will show scrollbar anytime everytime
+overflow: auto; will show scrollbar only when needed
+white-space: nowrap; : will extend in horizontal only all text in one horizontal
+text-overflow: ellipsis; : will show three dotes at ending of one scroll
+overflow-x: hidden;  : can only do in y now 
+overflow-y: scroll;
+overflow: hidden scroll; : means x hidden and y scroll bar
+overflow: scroll hidden; : means x scroll bar and y hidden
+
+-->
