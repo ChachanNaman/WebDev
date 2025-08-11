@@ -1,0 +1,24 @@
+ECMA is a genral syntax you can say on which JavaScript is created
+To overcome conflict of different code anywhere , ECMA provided general syntax 
+
+Every Browser have their JS engine 
+Browser -> JS engine
+Example : 
+Google -> V8 is JS engine
+Mozilla Firefox-> SpiderMonkey 
+Microsoft -> Chakra
+
+To run JS code in browser :  browser->inspect->console
+console.log("") -> printn command
+console window pe log karwane is print
+
+I can add JS code anywhere in my html code but best practise to add at the end of Body tag
+To make sure everything is rendered before JS code and my site behaves normal not slow
+
+
+Commands to run through terminal -> 
+(base) namanchachan@Namans-MacBook-Air webdev % cd 1Intro
+(base) namanchachan@Namans-MacBook-Air 1Intro % pwd
+/Users/namanchachan/Desktop/webdev/1Intro
+(base) namanchachan@Namans-MacBook-Air 1Intro % node index.js
+Hello ji namaste 2

@@ -1,0 +1,65 @@
+Variables : accessing memory location through any name is called Variables
+Ex : let , var , constant
+let age = 25; (age : variable name)
+
+var variable : 
+We dont use var coz is function scopped or global scopped but not block scopped 
+I can use Var outside the function 
+like : 
+function example(){
+    var a = 10;
+    console.log(a);  this will run as its inside the function
+}
+
+console.log(a) 
+this will not run as its outside the function
+Redaclration of var is not possible but reassignment and revariable is possible 
+example : 
+1)Redaclration
+var a = 20;
+var a = 40;
+works
+2)Reassignment
+a=50; 
+works
+
+let variable : 
+let variables is block scopped means i can use it within bracket only not outside of it
+cant use redeclare 
+reassignmentis possible but redefinition is not possible
+example :
+1)Redaclration
+let a= 20;
+let a = 90;
+not works
+2)Reassignment
+let a = 80;
+a = 25;
+works
+
+const variable :
+value cant be change anywhere , everything not possible
+no reassignment , Redaclration , redefine
+
+Variable Naming Rules: 
+1) i can start my variable with number,_,$
+2)cant give space in between
+3) use CamelSpaces -> first word smallcase and everyother word first alphabet upper CamelSpaces
+ex : age of student -> ageOfStudent
+4) there are some reserved words in JS cant create variables name out of it
+
+DATATYPES : 
+Means of which particular data we talking and its size
+2 Types : Primitive and Non Premetive data atypes
+datatypes : number , string , boolean , undefined , null , bigInt, symbol
+number -> 1 ,2, 3 ,3.5 , 1.56
+char -> a,b,c, 1, 2, 4 ,@,$
+string-> "naman chachan"
+boolean -> true/false
+undefined -> let age; -> will show undefined
+null -> will store nothing -> let age = null;
+bigint -> will store number greater than 2^53-1
+Symbol-> primitive data type
+used to represent unique values, that can be used as keys for objects
+
+To check type of data : console.log(typeof(name))
