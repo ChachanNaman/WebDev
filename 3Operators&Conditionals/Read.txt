@@ -1,0 +1,44 @@
+Loops : for , while , do-while
+for -> for in , for each, 
+
+for : 
+for(initialisation ; condition; updation){
+    body
+}
+ex-> 
+for(int i = 1 ; i<=10 ; i++){
+    console.log("hello naman")
+}
+
+break : whenever break , stop that iteration and exit the loop
+continue : dont break just skip that and continue with other part
+
+while:
+initialisation;
+while(condition){
+    body
+    updation;
+}
+
+do while:
+initialisation
+do{
+//
+//
+//logic
+//updation
+}while(condition)
+Will not use do while frequently coz it prints the first statement anyhow without checking any condititon
+
+
+Strings : 
+sequeance of characters
+ex=> "naman" , "n" , ""
+operations -> concat , substring, length, uppercase, lowercase, find char , find location
+
+substrings : 
+console.log(str1.substring(index));
+
+Using \\ :
+using this says that char forward to me dont treat that as special char , treat it as normal char
+to print it normal , we use when we want to print signs normally in Strings
