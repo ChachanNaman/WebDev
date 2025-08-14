@@ -1,0 +1,14 @@
+Functions : 
+to reduce the duplicasy and bulky code
+function performs specific task on a given input
+In loop exexcuted baar baar baar , we cant stop but in function we need when then only exexcuted
+
+function name(parameter){
+    body
+}
+
+name(argument);
+
+value that is passed in function is parameter and by value from which we call is argument
+
+Arrow Function :

@@ -1,0 +1,55 @@
+Reference Types : objest , array , Functions
+Memory in JS : 
+Stack -> int , boolean ,strings ,etc
+Heap -> array, 
+ex = arr[]={1,2,3}
+soo 1,2,3 stored in Heap and arr is referense stored in Stack
+
+object -> collection of key value pairs -> key:value
+let obj = {
+        name : "naman",
+        age : 24,
+        weight = 78
+        walk : funtion(){}
+![](K0wWpXtkLESXybr8wWy2Ifn9TQPzyq7J.svg)
+
+Shallow Copy : 
+obj1 in stack -> is referenced to its objects in Heap 
+obj2 = obj1
+then obj2 in stack -> is also referenced to same of obj1 in Heap
+Means if i do changes in obj2 then it will also reflected in obj1 also 
+
+Deep Copy : 
+A deep copy duplicates every property and sub-property of the original object. 
+This ensures that the copy is completely independent of the original, 
+and changes to the copy do not affect the original object.
+
+ARRAYS :
+collection of items(int , strings , boolean)
+built-in methods in array -> push , pop , shift , unshift , slice , map , filter , sort , reduce , find
+push -> add at the end 
+pop - remove from the pop
+shift -> remove the first item (left)
+unshift -> add at the first item(left)
+slice -> new part of array
+splice -> can change content of array (from pos to that pos add in that)
+map -> map picks the values from the array and take it inside the function and return the value from it 
+filter -> takes array and apply filter on it to include or exclude in answer array
+reduce -> reduce have to things = acc(accumulator) , curr(current)
+        accumulator if not initialised then take first value of array , and curr takes next value of acc
+    arr = [ 10, 20, 30 , 40];
+            0 ,  1,  2 ,  3
+    let ans2 = hrr.reduce((acc, curr) => {
+    return acc + curr;
+    },0);   
+    means -> acc = 0 and curr = 10 -> acc+curr = 10 -> now acc = 10 and curr++ -> curr = 20
+             acc = 10 and curr = 20 -> acc+curr = 30 -> now acc = 30 and curr++ -> curr = 30
+             acc = 30 and curr = 30 -> acc+curr = 60 -> now acc = 60 and curr++ -> curr = 40
+             acc = 60 and curr = 40 -> acc+curr = 100 -> now acc = 100 and no curr++ soo return 100 
+
+sort -> arr.sort();
+
+//Looping -> 
+foreach -> to perform action on each element of array 
+forin -> to iterate through an object 
+forof -> to iterate object like arrays , strings 
