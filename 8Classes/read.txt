@@ -1,0 +1,28 @@
+Class : 
+The planning i define of my object is called classes , bascially blueprint of my upcoming object code
+Class contains static things like -> age = 19 , weight = 70
+Class contains behaviour like -> walking() , range() contains functions which i can call later
+ex : class human{
+age = 19;
+#height = 5;
+};
+now private -> to mark private we use "#"
+to use private , but pvt used only in class -> to use pvt i use "this (->)" -> this.#height
+
+Object : 
+Object is created using classes 
+like : 
+Human a = new Human()    -> object a created
+a.age                    -> now i can age from class Human
+a.height
+
+
+To use pvt member outside the class is we use : getter and setter
+we use getter setter to make clearity in my code and add ENCAPSULATION and do DATA PROTECTION
+
+Constructor : 
+When i want to initialise my data my members inside the class , there i use Constructor to initialise outside the class
+To use contructor , i pass values while declaring contructor
+
+Default Parameter : 
+allow to use function with default values

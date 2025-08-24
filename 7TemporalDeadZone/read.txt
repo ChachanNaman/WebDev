@@ -1,0 +1,5 @@
+Variable Scoping : Global Scope , Function Scope , Block Scope
+
+Temporal DeadZone :
+means if i call let or const variable earlier than declaring then it will throw 
+and error and the code in between them will alsoo not run as it part of Temporal Dead Zone now

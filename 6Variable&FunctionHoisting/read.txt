@@ -1,0 +1,16 @@
+Hoisting : Shift the process such as Variable Declaration & function Declaration to the top in their scope
+In var Declaration -> only variable initialised shift upwards but not its value, means if i call print var before declation it will not show any value
+in func Declaration -> whole function shift upward , means if i call function before defining , it will give result
+
+Defining class with all thing included in it and at the instance its called Object
+Soo blueprint is class and at instance is called object
+
+Function call stack : 
+stores thing in LIFO
+
+Function : is first class citizen coz 
+i can assign variables
+i can pass another function too as an argument in one function
+i can return function 
+i can create DS of Functions
+i can use property as function

@@ -51,8 +51,8 @@ console.log(ansarray);
 
 let err = [40,50,60];
 err.map((number, index) => {
-    console.log(number);
-    console.log(index);
+    console.log(number + " " + index);
+    
 })
 
 //Filtering :
@@ -116,8 +116,8 @@ let obj = {
     }
 };
 
-for(let keys in obj){
-    console.log(keys , " " , obj[keys]);
+for(let hello in obj){
+    console.log(hello , " " , obj[hello]);
 }
 
 //for-of 
@@ -152,6 +152,6 @@ function getsumm(mrr){
     })
     return sum;
 }
+
 let ans4= getsumm(mrr);
 console.log(ans4);
-
