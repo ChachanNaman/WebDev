@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p id="fpara" class="cpara">first paragraph</p>
+    <p id="spara" class="cpara">second paragraph</p>
+    <h1 id="fheading" class="cheading" >first heading</h1>   -->
+    <!-- id -> helps to fetch from Document
+         document.getElementById("idname")-->
+    <!-- class -> helps to fetch from Document
+         document.getElementsByClassName("classname")-->
+    <!-- tag -> help to fetch from document
+         document.getElementsByTagName("tagname") 
+         HTMLCollection(2) -> means there are 2 para code lines -->
+    <!-- id query selector -> to get id documented code
+         document.querySelector("#fpara")
+         class query selector -> 
+        document.querySelector(".cpara") -> cache is it will return only first line of code of that class
+         tag query selector -> 
+        document.querySelector("p") -> same cache
+
+        To solve this cache we use -> document.querySelectorAll("p") -> will return all paras
+                                      document.querySelectorAll(".cpara") -> will return all paras
+         --> 
+
+
+<!--         
+        <div id="fdiv">
+            <p>
+                this is my first 
+                <div>
+                    text
+                </div>
+            </p>
+            <p>
+                this is my second para 
+            </p>
+        </div> -->
+
+    <div style="padding : 1rem; margin :1rem ; background-color: yellow;">
+         heyyoo
+        <div id="mydiv" style="padding: 3rem; background-color: grey;">
+            <p id="fpara">my name is chachan</p>
+            <h1>hello ji</h1>
+            <p>my name is naman</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

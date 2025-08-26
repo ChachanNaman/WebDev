@@ -5,3 +5,87 @@ window.close() in console -> to close the window
 
 Everything in JS every objects comes under the Window
 console.log("naman") can also be written like -> window.console.log("naman")
+
+DOM(Document Object Model) :
+html code converted to js object called docment and all called document object Model
+
+characters->tags -> tokens -> node -> and all nodes merge to make DOM
+
+When my html code converted to JS Objects called Document
+When my characters converted to tage then to tokens then to node and all node called DOM
+
+BOM(Browser Object Model) :
+interactions related to browser comes under BOM
+
+Fetching objects :
+1)declare id of my para and heading
+2)go in browser -> console-> type -> document.getElementBYId("idname")
+it will the code of that id 
+input : id -> returns object that matches to that is
+3)to get through class we can fetch through class also
+
+Querry Selector :
+denotion --> id : #, class : . ,tag : p,h,etc, $0
+docment.queryselector(#fpara) ->return that para line code
+document.queryselector(.cpara) ->return that class contained code
+document.queryselector(p) -> select p tag code and returns
+document.queryselectorAll(p) -> to get all the tags 
+
+Also you can get info just by selecting anyhting on website then typing its $0 in console
+
+Update Existing Element : 
+-> innerhtml : 
+        get ->  can get/set in any html tag
+                select first any button in website then
+                $0
+                let button = $0
+                button.innerHTML -> will give all info about tag of that button
+
+      set ->  used to change or set the value of my tag
+                button.innerHTML = "<p>Helloo Naman</p>"
+                will set the para to this now Hello Naman
+
+-> outerhtml : to get or set the entire HTML content of an element, including the element itself and its children. It can be used in two ways:
+               Getting outerHTML: Returns a string with the element and all its inner content (tags, attributes, and nested elements).
+               Setting outerHTML: Replaces the element and its content entirely with new HTML
+
+-> innertext : will show my lines like its shown on UI , like if there is one line break to next line then it will show that only , tries to render my site
+               element.innerText
+               'this is my first\n\ntext\n\nthis is my second para'
+-> textcontent : will show every breaks in output
+                element.textContent
+
+
+Add elements :
+1)creation of child -> .createElement then
+2)to add -> .appndchild
+let element = document.createElement("h1");
+element.textContent = "hello my name is naman";
+let bodytag = document.querySelector("body")
+bodytag.appendChild("element")
+appendchild -> will add element in the last of my body tag
+
+I can decide where to add my child at by -> insertAdjacentEelement()
+Have to specity two things : position and HTML content
+Position -> 
+beforebegin 
+afterbegin
+beforeend
+afterend
+
+beforebegin-> 
+let mydiv = document.querySelector('#mydiv');
+let newele = document.createElement('span');
+newele.textContent = "kaise ho sab ji";
+mydiv.insertAdjacentElement('beforebegin', newele);
+Now merging this js code 
+
+same replace the parent thing for all
+mydiv.insertAdjacentElement('afterbegin', newele);
+mydiv.insertAdjacentElement('beforeend', newele);
+mydiv.insertAdjacentElement('afterend', newele);
+
+Removal : 
+remove_child() -> opposite of append
+have to pass parent and child too which i want to remove_child
+first declare Parent then child then removeChild(childname)
