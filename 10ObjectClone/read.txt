@@ -1,0 +1,17 @@
+Object clonning : 
+3 ways -> 
+1) spread operator -> ...
+    syntax : let src = {age:12}
+             let dest = {...age}       cloned here
+
+2)Assign method :
+    syntax : dest = Object.assign({}, src)
+
+3)Itteration methid :
+    syntax : iterate through src and insert src key value pair iteration vise in dest 
+
+
+Garbagge Collector :
+when memory is no longer use then it can be free using garbagge Collector
+used to prevent memory leak
+

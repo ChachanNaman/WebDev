@@ -1,0 +1,36 @@
+ERROR : 
+Which disturbs the flow of my code
+
+
+Types of error : 
+1)Compile Time Error -> when code is parsing the error is getting caught before the code get executed 
+2)Runtime Error -> when the code is executing and error is caught ,during exectuion
+
+Handling :
+try-catch block -> 
+try{
+    //here is line of code which gonna throw error
+}
+catch(error){
+    //we can define here what we want to do when error there
+    ->retry logic
+    ->fallback mechanism
+    ->logging
+    ->custom error
+}
+
+finally-block -> this block says it gonna run every time , if theres error or not
+try{
+
+}
+catch{
+
+}
+finally{
+//this block will run anyway
+}
+
+Throw error -> will return error statement 
+like ik theres gonna be error , soo if that error came then throw this staement 
+
+

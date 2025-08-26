@@ -1,0 +1,7 @@
+JS DOM MANIPULATION : 
+Window object -> global object (top most in hierarchy)
+window.open() in console -> to open new window
+window.close() in console -> to close the window
+
+Everything in JS every objects comes under the Window
+console.log("naman") can also be written like -> window.console.log("naman")
