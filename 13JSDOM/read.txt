@@ -1,0 +1,12 @@
+Changing CSS : external , inline , internal
+We can change the CSS by JS
+
+this is one line one change code : 
+let secpara = document.getElementById('spara');  //select para
+secpara; 
+console.log(secpara.style);   //get vala part
+secpara.style.backgroundColor = 'blue';  //set vala part
+secpara.style.color = 'white'; //set vala part
+
+Multiple Inline styles : this is one line multiple change code
+
