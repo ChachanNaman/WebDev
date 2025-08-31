@@ -1,0 +1,9 @@
+Browser events :
+event -> clicking on windows , pressing the key on keyboard(action attached)
+        to see : console->monitorEvents(document);
+                to undo -> unmonitorEvents(document);
+
+event target -> entity where event recieved , i list event action in event listener there
+event listener -> in this we define the what action do have to button perform when the event target is pressed 
+      Syntax : <event-target>.addEventListener(<event-type>, <function-action>);
+
