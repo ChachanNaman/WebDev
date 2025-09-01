@@ -6,4 +6,27 @@ event -> clicking on windows , pressing the key on keyboard(action attached)
 event target -> entity where event recieved , i list event action in event listener there
 event listener -> in this we define the what action do have to button perform when the event target is pressed 
       Syntax : <event-target>.addEventListener(<event-type>, <function-action>);
+      got added in bubbling phase -> if i want to add it in capturing phase , have to make : true->usecapture
+      .addEventListener(type, function, usecapture)
+Phases of the event -> 
+    <div>
+        <article>
+            <h1>
+            </h1>
+            <p>
+            </p>       -> target
+        </article>
+    </div>
+Capturing phase : when i am travelling to my target element 
+                  div->article->p
+At Target : p
+Bubbling Phase : when i am at my target element(p) and travelling back to ancestors until i get the root element
+                 p->artile->div
 
+Event Object : 
+event trigger( click ) -> addEventListener(event) -> utilise : to see all type data it contains
+means my function gets event as a parameter whenever i click on it 
+
+Default Action :
+every element have its default action like 
+<a> anchor tag -> have default action to redirect on the link , so i can change this default behaviour
