@@ -1,0 +1,23 @@
+JS have a way to get how much time my code is taking to run 
+performance.now() -> used to get runtime of my code -> timestamp
+t2(end)-t1(start) -> time my code take to run
+
+Reflow : 
+process of calculating position/dimension of object
+takes time to calculate 
+
+Repaint :
+process of displaying content/element pixel by pixel
+faster than reflow -> as it just prints or draw on screen or ui
+
+in Code1 -> i have to do 100 times reflow and repaint to show my code on page
+but in Code2 -> i am adding first in my div not in my document(my page) -> soo i saved 100 steps of repaint and reflow -> in last i did document appending
+                soo overall there is only 1 reflow and 1 repaint
+                thats why Code2 is faster
+
+More good practise :
+Document Fragement -> 
+its is light weight document object
+when we add element in this , it will not do any reflow and repaint
+saves time and more optimal and faster
+document fragment laterwards added to document -> soo at the end 1 reflow and 1 repaint

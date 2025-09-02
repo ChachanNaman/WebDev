@@ -1,0 +1,28 @@
+Synchronous Code : 
+it is a type of codes which executes on a same line and doesnt wait in between
+ex-> print statements
+
+Asynchronous Code : 
+which doesnt executes on the spot , like it doesnt even guarantee that the code will run or not on time
+ex : 
+function saymyname(){
+    console.log("hello naman");
+}
+setTimeOut(saymyname, 5000); -> defined here 5 seconds but as it Asynchronous it doesnt guarantee of 5 seconds
+it could be run after 10 second, 1 minute, doesnt guarantee
+
+Blocking : 
+means it will block the Synchronous statements coz of Asynchronous statements
+console.log("start");
+setTimeOut(saymyname, 5000);
+console.log("end"); -> this will be in block state coz of waiting 
+
+To handle this blocking condition EVENT LOOP was introduced 
+EVENT LOOP deals with Asynchronous statements
+and Synchronous statements runs normally
+
+EVENT LOOP :
+
+call stack -> 
+browser ->
+callback queue -> 
