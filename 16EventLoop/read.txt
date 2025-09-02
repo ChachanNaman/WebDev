@@ -22,7 +22,20 @@ EVENT LOOP deals with Asynchronous statements
 and Synchronous statements runs normally
 
 EVENT LOOP :
+console.log("start");
+setTimeOut(saymyname, 5000);
+console.log("end");
+Call Stack ->
+Firstly "start" pushed into the stack and popped and printed -> Then setTimeOut func pushed into the stack as 
+it is Asynchronous code it is transfered to browser to handle and popped -> then "end" pushed in stack then popped and printed
+Browser -> 
+It holds the Asynchronous code -> saymyname starts its timer and as timer got finisher it sends saymyname to callback queue to print code inside function
+Callback queue -> 
+it checks if the stack is empty then pushes the saymyname into stack and print and popped 
 
-call stack -> 
-browser ->
-callback queue -> 
+Output : 
+start
+end
+Hello naman
+
+Event loop ensures that after the callback step that call stack is empty

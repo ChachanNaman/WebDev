@@ -1,0 +1,19 @@
+Promise : 
+Promise is a type of object which checkups the asynchronous code that it is rejected or accepted 
+3 states ->
+pending : initial state , neither fulfilled nor rejected
+fulfilled : opertaion completed successfully
+rejected  : faced some failure 
+
+With the help of promise i can return value from asynchronous code too just like synchronous code
+It returns a promise that there will be some output forsure
+
+new promise(resolve , reject){
+    code
+}
+
+Then :
+when my promise fulfilled -> then() code will decide what to do next
+
+Catch :
+when my promise failed ->catch() code will see

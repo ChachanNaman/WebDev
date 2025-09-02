@@ -37,3 +37,4 @@ for(let i = 0; i <= 100 ; i++){
 document.body.appendChild(fragment);
 const t6 = performance.now();
 console.log("Total time taken by code 3 : " + (t6-t5));
+
