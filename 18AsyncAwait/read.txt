@@ -1,0 +1,18 @@
+Promises make the code lengthy 
+Async-Await makes the code shorter and efficitent 
+Async-Await makes asynchronous code to synchronous type means i can execute asynchronous code sequentally
+
+//code synchronous
+//code asynchronous
+//code synchronous
+
+if i want to execute asynchronous code properly first then synchronous code , then i have to mark asynchronous -> Await
+
+
+//fetch api
+//there are lot of things on internet if i want to fetch them fetch api is used
+Requests for fetch api ->
+get() -> to extract the data 
+post req -> if i want to push data
+put req -> if i want to update 
+delete req -> want to delete
