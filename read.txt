@@ -1,0 +1,20 @@
+REGEX -> 
+
+Regex (short for Regular Expression) is basically a pattern-matching language used inside strings.
+It lets you check whether a string follows certain rules, or extract/replace parts of it.
+
+This is the regular expression (rules for valid username):
+^ → start of string.
+[a-zA-Z0-9_-] → only letters (uppercase/lowercase), digits, _ or -.
+{1,15} → length must be between 1 and 15 characters.
+$ → end of string.
+So: allowed usernames are 1–15 chars, only letters, numbers, _, and -.
+
+ex : 
+"naman123" → valid ✅
+"hello_world" → valid ✅
+"too_long_username_12345" → invalid ❌ (too long)
+"hello@user" → invalid ❌ (contains @)
+" " → invalid ❌ (empty after trim)
+
+
