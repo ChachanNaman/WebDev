@@ -1,0 +1,5 @@
+Closure : 
+When i bind my function with its required data is known as Closure
+Top level entity
+need two things : function and required data
+required data known as -> lexical scope or surrounding state
