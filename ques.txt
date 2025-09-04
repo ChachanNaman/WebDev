@@ -1,3 +1,0 @@
-what is diff bw rem and px
-what is flex 
-what is reggex in js

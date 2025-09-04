@@ -13,8 +13,8 @@ So: allowed usernames are 1–15 chars, only letters, numbers, _, and -.
 ex : 
 "naman123" → valid ✅
 "hello_world" → valid ✅
-"too_long_username_12345" → invalid ❌ (too long)
 "hello@user" → invalid ❌ (contains @)
 " " → invalid ❌ (empty after trim)
 
 
+add email too for searching id 
