@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (username.trim() === "") {//checks if the username string is non-empty
             //username.trim() removes extra spaces at start/end.
             alert("Username should not be empty");
-            return false;
+                return false;
         }
         const regex = /^[a-zA-Z0-9_-]{1,39}$/;
         const isMatching = regex.test(username); //.test() checks if the given string matches the regex.
