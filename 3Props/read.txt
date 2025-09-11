@@ -1,0 +1,18 @@
+const Cards = () => {
+  return (
+    <div>
+     
+    </div>
+  )
+}
+If this is my component in Cards.jsx
+
+So in App.jsx when i write in 
+<Cards name="Naman ji">
+    CHILDREN 
+ </Cards>
+
+ within start and end of Cards , all in bw is called children 
+{props.children} -> will give all in Cards children
+
+Making function in App.jsx but calling in Button.jsx -> 

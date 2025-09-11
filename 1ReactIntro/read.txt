@@ -1,0 +1,50 @@
+LECTURE 1 : 
+
+REACT : 
+it is language that enhances the UI of the website 
+i can make the components directly
+->code reusebility 
+->uses Virtual Dom (use intelligent method -> doesnt refresh page again and again)
+->easy to understand, debug
+->dynamic updation(change one variable -> updation in all duplicate codes)
+->provides hooks(feature)
+->state management
+
+1)installed node js 
+2)then went to my intro folder 
+3)there pasted this -> npm create vite@latest
+4)then runned this  -> npm install
+5)after running i can see node_moules folder is created 
+6)then runned the project 
+
+node_moules -> installed by npm , contains needed files to run a project
+public -> static or assets contains , images and all
+src -> main code in it 
+src -> assests -> contains images , fonts , extra css files
+
+index.html -> body -> div -> src jsx file -> selected div id -> in that go to app.jsx (there is whole code of site)
+main.jsx -> App.jsx -> App.css(to style my para written there) -> 
+
+jsx -> javascript xml 
+        javascript + html 
+        html code in which i can use js 
+jsx code renders to -> js code -> renders to -> html code -> renders to my browser or site to show jsx content 
+
+LECTURE 2 :
+
+Components -> 
+components can be function based and class based 
+a component is nothing but some code which is similar to html jaisa code to renders
+componnent is section of your page , and you can create it by creating a function which returns html look alike code
+
+now i am creating card type component
+created 'component' folder in src -> in that component.jsx , component.css
+in component.jsx returning function which is returning html lool alike code
+to use that function , i have to export also 
+in jsx 'class' doesnt exist -> here exists 'className'
+
+in jsx all things sent in same and single tag , like a single div should be returned not multiple otherwise throws error
+
+PROPS -> 
+when i want different data to be shown from same component 
+we pass different props then when we call in App.jsx

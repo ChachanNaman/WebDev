@@ -1,0 +1,12 @@
+HOOK ->
+react provides different functionalities , and using diff functionalities is called HOOK
+react provides features and to use those we use Hooks
+
+Use State Hook ->
+clear the code of index.css, App.css, App.jsx
+Every component have its own state 
+like counter component have its state of count 
+
+const[state_variable, SetState] = useState(0);
+0 is initial state 
+SetState is used to set different values
