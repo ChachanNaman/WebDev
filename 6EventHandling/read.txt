@@ -1,0 +1,18 @@
+<button onClick={alert("you clicked me")} >
+  Click meee
+</button>
+immediate invoking->
+whenever this code appears aleart comes at just after reloading not after clicking
+
+correct format to write this is -> 
+<button onClick={() => alert("you clicked me")} >
+  Click meee
+</button>
+
+
+to prevent default submit behaviour i wrote this
+ e.preventDefault();
+it prevents sending requests to server and all
+
+e.stopPropagation() ->
+it prevents going upside the code , basically used to stop bubbling and get the output of the instant clicked function

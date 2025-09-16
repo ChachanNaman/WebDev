@@ -1,0 +1,10 @@
+http://localhost:5173/student/ue2uf
+here ue2uf -> is called Route Parameter
+
+http://localhost:5173/student/id = ue2uf
+here id = ue2uf -> is called Querry Parameter
+
+useNavigation -> type of hook i can use directly to go from one page to another linked page to it
+
+<Outlet/> -> needed to add in parent jsx if i am adding children to it
+ex : Dashboard mein <Outlet/> for Course-section
