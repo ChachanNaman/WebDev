@@ -4,7 +4,7 @@ const connectDB = require('./db');
 const users = require('./Routes/users');
 const PORT = 3000;
 
-//body parser
+//body parserrr
 app.use(express.json());
 //connect to database
 connectDB();
