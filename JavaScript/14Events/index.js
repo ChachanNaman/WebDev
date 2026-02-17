@@ -8,7 +8,7 @@
 // funcpara.addEventListener('click', changetext); //will change the text 
 // to remove -> funcpara.removeEventListener('click', changetext);
 
-
+//committtttjsjsksk
 // //changing default behaviour of Anchor tag (link)
 // let anchorelement = document.getElementById('fanchor');
 // function defaultbeh(event){
