@@ -1,5 +1,5 @@
 //changing the colour of second para
-//one line one change (.style)
+//one line one change (.style) hshs
 let secpara = document.getElementById('spara');
 secpara;
 console.log(secpara.style);
